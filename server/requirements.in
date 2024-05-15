@@ -1,0 +1,10 @@
+fastapi==0.111.0
+pydantic==2.7.1
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==3.2.2
+sqlalchemy
+alembic 
+psycopg2-binary
+redis[hiredis]
+fastapi-camelcase

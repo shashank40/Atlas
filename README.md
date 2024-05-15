@@ -7,22 +7,23 @@
 
 # SPIN UP Postgres and Redis
 
-1) cd server
-2) docker-compose --file docker-compose.yaml up --remove-orphans --force-recreate
-3) For migrations > cd server/schema
-4) # Alembic Readme![alt text](server/schemas/README.md)
+1) `cd server`
+2) `docker-compose --file docker-compose.yaml up --remove-orphans --force-recreate`
+3) For migrations > `cd server/schema`
+4) [Alembic Readme!](server/schemas/README.md)
 
 # Run everything together
 
 1) Have conda installed & create conda env
-2) cd server & do pip-sync requirements.txt requirements-dev.txt
-3) cd ..
-4) make run
+2) `cd server` 
+3) `pip-sync requirements.txt requirements-dev.txt`
+4) `cd ..`
+5) `make run`
 
 
 # Stop everthing
 
-1) cmd + c & return (in terminal)
+1) `cmd + c` & `return` (in terminal)
 
 # Services Port
 
